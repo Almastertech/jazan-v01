@@ -1,0 +1,255 @@
+{
+  "nav": {
+    "nav_bar": {
+      "nav_data": [
+        {
+          "title": "عن المرصد الحضري",
+          "subnavs": [
+            {
+              "title": "المكتب الإستراتيجي لتطوير منطقة الباحة",
+              "href": "/albaha-page"
+            },
+
+            { "title": "فريق العمل", "href": "/ourteam" },
+            { "title": "طلب البيانات", "href": "/contact" },
+            {
+              "target": "_blank",
+              "title": "إدارة المحتوى",
+              "href": "http://34.166.121.10/Marsad/App"
+            },
+            { "title": "شركائنا", "href": "/#partners" }
+          ]
+        },
+        {
+          "title": "الجغرافيا والمكان",
+          "subnavs": [
+            { "title": "منطقة الباحة", "target": "_blank", "href": "/baha" },
+            { "title": "محافظة العقيق", "target": "_blank", "href": "/akik" },
+            { "title": "محافظة الحجره", "target": "_blank", "href": "/hogra" },
+            {
+              "title": "محافظة المخواة",
+              "target": "_blank",
+              "href": "/makhwa"
+            },
+            { "title": "محافظة المندق", "target": "_blank", "href": "/mandak" },
+            {
+              "title": "محافظة بالجرشي",
+              "target": "_blank",
+              "href": "/balghrshy"
+            },
+            {
+              "title": "محافظة بني حسن",
+              "target": "_blank",
+              "href": "/banyhasan"
+            },
+            {
+              "title": "محافظة غامد الزناد",
+              "target": "_blank",
+              "href": "/ghamed"
+            },
+            { "title": "محافظة القرى", "target": "_blank", "href": "/kora" },
+            { "title": "محافظة قلوة", "target": "_blank", "href": "/kalwa" }
+          ]
+        },
+        {
+          "title": "المؤشرات الحضرية لمنطقة الباحة",
+          "subnavs": [
+            {
+              "title": "المؤشرات الحضرية لمنطقة الباحة",
+              "href": "http://34.166.121.10:7009/",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "title": "أخبار المرصد",
+          "subnavs": [
+            { "title": "الأخبار", "href": "/news" },
+            { "title": "مكتبة المرصد", "href": "/images" },
+            { "title": "ملفات التحميل", "href": "/reports" }
+          ]
+        }
+      ],
+      "lang_switch": ""
+    }
+  },
+  "homepage": {
+    "hero": {
+      "title": "رصد الواقع بعين المستقبل",
+      "cta": "منصة المعلومات الحضرية"
+    },
+    "visions_and_goals": {
+      "title": "الرؤية والأهداف",
+      "visionsandgolas": [
+        {
+          "icon": "/assets/home/visions_and_goals/rocket-01.svg",
+          "gold_icon": "/assets/home/visions_and_goals/rocket-01-gold.svg",
+          "title": "أهدافنا",
+          "description": "تعزيز التخطيط الحضري ، متابعة مؤشرات التنمية الإقليمية  ، دعم الجهود الاستثمارية في المنطقة ، بناء الشراكات والاتفاقيات مع القطاعات التنموية بالمنطقة."
+        },
+        {
+          "icon": "/assets/home/visions_and_goals/vision.svg",
+          "gold_icon": "/assets/home/visions_and_goals/vision-gold.svg",
+          "title": "رؤيتنا",
+          "description": "يمثل المرصد الحضري خطوة محورية نحو تحقيق بيئة حضرية مستدامة، ويسهم في رفع جودة الحياة والارتقاء بمستوى الخدمات لسكان منطقة الباحة."
+        }
+      ]
+    },
+    "mailing_list": {
+      "title": "سجل في القائمة البريدية",
+      "content": "أنشئ حساب للاطلاع على آخر أخبار الباحة المشوقة والتعرّف أكثر على فعالياتنا",
+      "placeholder": "إدخل بريــــدك الإلــــــكتـــرونـي للإشـــتــــراك"
+    },
+    "partners": {
+      "title": "شركاء النجاح",
+      "description": "نفتخر بشراكتنا مع +200 شراكة استراتيجية محلية وعالمية، تُمهد لمستقبل مشرق",
+      "cta": "مشاهدة المزيد",
+      "partners_icons": [
+        [
+          "/assets/home/partners/البنك المركزي.svg",
+          "/assets/home/partners/الثقافة.svg",
+          "/assets/home/partners/الموار بشرية.svg",
+          "/assets/home/partners/امانة الباحة.svg"
+        ],
+        [
+          "/assets/home/partners/شعار وزارة الإعلام SVG 1.svg",
+          "/assets/home/partners/شعار وزارة الاستثمار SVG 1.svg",
+          "/assets/home/partners/طيران مدني.svg",
+          "/assets/home/partners/ملكية فكرية.svg"
+        ],
+        [
+          "/assets/home/partners/هاوي.svg",
+          "/assets/home/partners/هيئة التراث.svg",
+          "/assets/home/partners/Frame 2608703.svg",
+          "/assets/home/partners/Group-2.svg"
+        ],
+        [
+          "/assets/home/partners/General_Entertainment_Authority_Logo 1.svg",
+          "/assets/home/partners/Group-1.svg",
+          "/assets/home/partners/Group-3.svg",
+          "/assets/home/partners/l-m 1.svg"
+        ],
+        [
+          "/assets/home/partners/Group.svg",
+          "/assets/home/partners/Frame 2608707.svg",
+          "/assets/home/partners/Group-2.svg",
+          "/assets/home/partners/Frame 2608707.svg"
+        ]
+      ]
+    }
+  },
+  "reports": {
+    "header": {
+      "title": "مكتبه المرصد",
+      "cta": "توفر مكتبة المرصد مجموعة من التقارير والوثائق التي تسلط الضوء على أحدث المشاريع، الدراسات، والإنجازات، مما يمنح الزوار نظرة معمقة على مسيرة التطوير والابتكار."
+    }
+  },
+  "images": {
+    "header": {
+      "title": "المكتبة",
+      "cta": "استكشف مجموعة من الصور والفيديوهات التي تعرض أحدث مشاريعنا، ورؤيتنا للتطوير، وكواليس العمل في مرصد الباحة. استمتع بجولة بصرية تبرز الجودة والابتكار الذي يميز أعمالنا."
+    }
+  },
+  "news": {
+    "header": {
+      "title": "آخر الأخبار والتحديثات",
+      "cta": "كن على اطلاع دائم بآخر الأخبار والتقارير والتحديثات حول مرصد منطقة الباحة."
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "لنتواصل مع مرصد الباحة",
+      "cta": "هل لديك أي استفسارات أو تساؤلات؟",
+      "cta2": " تواصل معنا - يسعدنا سماعك!"
+    }
+  },
+  "location": {
+    "hero": {
+      "title": "منطقة الباحة",
+      "description": "مدينة الباحة هي عاصمة منطقة الباحة ومقر الإمارة، ومن أهم مدن السعودية سياحيًا وزراعيًا، وإليها تنسب المنطقة ويتركز الثقل الإداري والتجاري. توجد بها دوائر حكومية ومراكز تجارية كبرى، إضافةً إلى أن بها أسواقا شعبية، أهمها: سوق الخميس.يبلغ عدد سكان الباحة تقريبا ٤٨٧,١٠٨ ألف نسمة يتوزعون على المدينة ومحافظاتها. يحيط بالمدينة غابات كثيرة، منها: غابة رغدان، وغابة الشهبة، ودار الجبل، والزرقاء، يحدها من الشمال محافظة القرى، ومن الغرب محافظة المندق، ومحافظة المخواة، ومن الجنوب محافظة بلجرشي، ومن الشرق محافظة العقيق."
+    },
+    "directions": {
+      "heading1": "منطقة الباحة",
+      "desc1": "ينتشر السكان بالمدينة وبعض الضواحي المحيطة بها والقرى ويعملون بالدوائر الحكومية والسلك العسكري والبعض بالزراعة والتجارة والتعليم.",
+      "heading2": "الموقع",
+      "desc2": "تقع مدينة الباحة في الجنوب الغربي من المملكة العربية السعودية وتمثل موقعًا وسطاً بين مناطق سياحية."
+    }
+  },
+  "footer": {
+    "sections": [
+      {
+        "title": "عن المرصد الحضري",
+        "links": [
+          {
+            "text": "المكتب الإستراتيجي لتطوير منطقة الباحة",
+            "href": "/albaha-page"
+          },
+          { "text": "فريق العمل", "href": "/ourteam" },
+          { "text": "طلب البيانات", "href": "/contact" },
+          {
+            "text": "إدارة المحتوي",
+            "href": "http://34.166.121.10/Marsad/App",
+            "target": "_blank"
+          },
+          { "text": "شركائنا", "href": "/#partners" }
+        ]
+      },
+      {
+        "title": "الجغرافيا والمكان",
+        "links": [
+          { "text": "منطقة الباحة", "target": "_blank", "href": "/baha" },
+          { "text": "محافظة العقيق", "target": "_blank", "href": "/akik" },
+          { "text": "محافظة الحجره", "target": "_blank", "href": "/hogra" },
+          {
+            "text": "محافظة المخواة",
+            "target": "_blank",
+            "href": "/makhwa"
+          },
+          { "text": "محافظة المندق", "target": "_blank", "href": "/mandak" },
+          {
+            "text": "محافظة بالجرشي",
+            "target": "_blank",
+            "href": "/balghrshy"
+          },
+          {
+            "text": "محافظة بني حسن",
+            "target": "_blank",
+            "href": "/banyhasan"
+          },
+          {
+            "text": "محافظة غامد الزناد",
+            "target": "_blank",
+            "href": "/ghamed"
+          },
+          { "text": "محافظة القرى", "target": "_blank", "href": "/kora" },
+          { "text": "محافظة قلوة", "target": "_blank", "href": "/kalwa" }
+        ]
+      },
+      [
+        {
+          "title": "المؤشرات الحضرية لمنطقة الباحة",
+          "links": [
+            {
+              "text": "المؤشرات الحضرية لمنطقة الباحة",
+              "href": "http://34.166.121.10:7009/",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "title": "مكتبة المرصد",
+          "links": [
+            { "text": "أخبار المرصد", "href": "/news" },
+            { "text": "الصور والفيديوهات", "href": "/images" },
+            { "text": "تقارير المرصد", "href": "/reports" }
+          ]
+        }
+      ]
+    ],
+    "bottom": [
+      { "title": "سياسة الخصوصية", "href": "#" },
+      { "title": "سياسات ملفات تعريف الإرتباط", "href": "#" }
+    ],
+    "copy": "جميع الحقوق محفوظة ©للمكتـــب الاستـــراتيجي لتطــوير منطــقة البـــاحــة"
+  }
+}

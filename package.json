@@ -1,0 +1,49 @@
+{
+  "name": "jazal-v01",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "flickity": "^2.3.0",
+    "framer-motion": "^12.4.10",
+    "i18n": "^0.15.1",
+    "jazal-v01": "file:",
+    "next": "^15.2.1",
+    "next-intl": "^3.26.5",
+    "postcss": "^8.5.3",
+    "react": "^18.3.1",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.3.1",
+    "react-fast-marquee": "^1.6.5",
+    "react-flickity-component": "^4.0.7",
+    "react-hook-form": "^7.55.0",
+    "react-id-swiper": "^4.0.0",
+    "react-intersection-observer": "^9.16.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@svgr/webpack": "^8.1.0",
+    "@tailwindcss/postcss": "^4.0.9",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.0",
+    "tailwindcss": "^4.0.9"
+  },
+  "main": "middleware.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Almastertech/jazal-v01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Almastertech/jazal-v01/issues"
+  },
+  "homepage": "https://github.com/Almastertech/jazal-v01#readme",
+  "description": ""
+}
