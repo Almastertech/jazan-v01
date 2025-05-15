@@ -23,13 +23,13 @@ const DiamondInfo = ({ activateAnimation, selectedDiamond }) => {
           </span>
           <p className="">{selectedDiamond.description1}</p>
         </div>
-        {/* {selectedDiamond.sectorIndicators.length > 0 && (
+        {selectedDiamond.sectorIndicators.length > 0 && (
           <div className="flex items-start h-fit  flex-wrap">
             {selectedDiamond?.sectorIndicators.map((item, index) => (
               <StateInfo key={index} data={item} />
             ))}
           </div>
-        )} */}
+        )}
 
         <Button className={`mt-3`}>مشاهدة المزيد</Button>
       </motion.div>

@@ -7,7 +7,7 @@ function HomeHero({ data }) {
     <section className="snap-start relative h-screen overflow-hidden w-full flexify z-10">
       <HeroVideo
         videoSrc="/assets/home/hero/MainBannerVideo.mp4"
-        fallbackImage="/assets/home/hero/hero.webp"
+        fallbackImage="/assets/home/hero/hero.png"
       />
       <Overlay data={data} />
     </section>

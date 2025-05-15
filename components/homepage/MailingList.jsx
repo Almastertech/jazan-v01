@@ -6,7 +6,7 @@ function MailingList({ data }) {
       <div className="flexify-col gap-4 p-res w-full bg-black/30 h-full">
         <h2 className="text-4xl font-bold">سجل في القائمة البريدية</h2>
         <p className="w-[50%] text-center">
-          أنشئ حساب للاطلاع على آخر أخبار جازال المشوقة والتعرّف أكثر على
+          أنشئ حساب للاطلاع على آخر أخبار جازان المشوقة والتعرّف أكثر على
           فعالياتنا
         </p>
         <MailingForm />

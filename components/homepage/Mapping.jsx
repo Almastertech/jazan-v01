@@ -1,5 +1,26 @@
 "use client";
 import { useState } from "react";
+
+const areas = [
+  { state: "abo-arish", x: 420, y: 380, w: 100, h: 100 },
+  { state: "ahad", x: 400, y: 480, w: 150, h: 80 },
+  { state: "amana", x: 300, y: 375, w: 100, h: 100 },
+  { state: "arda", x: 520, y: 350, w: 100, h: 100 },
+  { state: "bish", x: 220, y: 180, w: 200, h: 80 },
+  { state: "daar", x: 550, y: 160, w: 100, h: 150 },
+  { state: "damd", x: 420, y: 320, w: 60, h: 60 },
+  { state: "darb", x: 130, y: 30, w: 150, h: 180 },
+  { state: "eidaby", x: 470, y: 250, w: 80, h: 80 },
+  { state: "fifa", x: 550, y: 310, w: 30, h: 30 },
+  { state: "forsan", x: -100, y: 400, w: 300, h: 200 },
+  { state: "harth", x: 540, y: 460, w: 100, h: 100 },
+  { state: "horob", x: 420, y: 180, w: 100, h: 100 },
+  { state: "raith", x: 400, y: 80, w: 100, h: 100 },
+  { state: "sabiaa", x: 270, y: 270, w: 150, h: 100 },
+  { state: "samta", x: 400, y: 560, w: 150, h: 50 },
+  { state: "tawal", x: 420, y: 600, w: 100, h: 60 },
+];
+
 export const Mapping = ({
   setCurrentArea,
   showContent,
@@ -8,190 +29,35 @@ export const Mapping = ({
   data,
 }) => {
   const [temp, setTemp] = useState(null);
+
   return (
-    <div className="w-[550px]  h-full absolute left-[50%]  transform -translate-x-1/2 -top-0  text-sm font-obld">
+    <div className="w-[550px] h-full absolute left-[50%] transform -translate-x-1/2 -top-0 text-sm font-obld">
       {showContent && (
         <div className="relative">
-          <div
-            onClick={() => {
-              setTemp(null);
-              setClickedArea(currentArea);
-              setTemp(currentArea);
-            }}
-            onMouseEnter={() => {
-              setCurrentArea("hogra");
-              setClickedArea(null);
-            }}
-            onMouseLeave={() => {
-              setCurrentArea(null);
-              setClickedArea(temp);
-            }}
-            className="absolute flexify  hogra left-7 top-60 w-[100px] h-[100px] cursor-pointer ">
-            {/* {data.find((item) => item.state === "hogra").name.arabic} */}
-          </div>
-
-          <div
-            onClick={() => {
-              setTemp(null);
-              setClickedArea(currentArea);
-              setTemp(currentArea);
-            }}
-            onMouseEnter={() => {
-              setCurrentArea("mandak");
-              setClickedArea(null);
-            }}
-            onMouseLeave={() => {
-              setCurrentArea(null);
-              setClickedArea(temp);
-            }}
-            className="absolute flexify  mandak left-40 top-[210px] w-[50px] h-[100px] cursor-pointer">
-            {/* {data.find((item) => item.state === "mandak").name.arabic} */}
-          </div>
-
-          <div
-            onClick={() => {
-              setTemp(null);
-              setClickedArea(currentArea);
-              setTemp(currentArea);
-            }}
-            onMouseEnter={() => {
-              setCurrentArea("kora");
-              setClickedArea(null);
-            }}
-            onMouseLeave={() => {
-              setCurrentArea(null);
-              setClickedArea(temp);
-            }}
-            className="absolute flexify  kora left-40 top-[100px] w-[100px] h-[150px] cursor-pointer">
-            {/* {data.find((item) => item.state === "kora").name.arabic} */}
-          </div>
-
-          <div
-            onClick={() => {
-              setTemp(null);
-              setClickedArea(currentArea);
-              setTemp(currentArea);
-            }}
-            onMouseEnter={() => {
-              setCurrentArea("akik");
-              setClickedArea(null);
-            }}
-            onMouseLeave={() => {
-              setCurrentArea(null);
-              setClickedArea(temp);
-            }}
-            className="absolute flexify  akik left-60 top-[130px] w-[150px] h-[150px] cursor-pointer">
-            {/* {data.find((item) => item.state === "akik").name.arabic} */}
-          </div>
-
-          <div
-            onClick={() => {
-              setTemp(null);
-              setClickedArea(currentArea);
-              setTemp(currentArea);
-            }}
-            onMouseEnter={() => {
-              setCurrentArea("banyhasan");
-              setClickedArea(null);
-            }}
-            onMouseLeave={() => {
-              setCurrentArea(null);
-              setClickedArea(temp);
-            }}
-            className="absolute flexify  banyhasan left-[190px] top-[270px] w-[50px] h-[100px] cursor-pointer">
-            {/* {data.find((item) => item.state === "banyhasan").name.arabic} */}
-          </div>
-
-          <div
-            onClick={() => {
-              setTemp(null);
-              setClickedArea(currentArea);
-              setTemp(currentArea);
-            }}
-            onMouseEnter={() => {
-              setCurrentArea("kalwa");
-              setClickedArea(null);
-            }}
-            onMouseLeave={() => {
-              setCurrentArea(null);
-              setClickedArea(temp);
-            }}
-            className="absolute flexify  kalwa left-20 top-80 w-[100px] h-[100px] cursor-pointer">
-            {/* {data.find((item) => item.state === "kalwa").name.arabic} */}
-          </div>
-
-          <div
-            onClick={() => {
-              setTemp(null);
-              setClickedArea(currentArea);
-              setTemp(currentArea);
-            }}
-            onMouseEnter={() => {
-              setCurrentArea("makhwa");
-              setClickedArea(null);
-            }}
-            onMouseLeave={() => {
-              setCurrentArea(null);
-              setClickedArea(temp);
-            }}
-            className="absolute flexify  makhwa left-44 top-100 w-[100px] h-[100px] cursor-pointer">
-            {/* {data.find((item) => item.state === "makhwa").name.arabic} */}
-          </div>
-
-          <div
-            onClick={() => {
-              setTemp(null);
-              setClickedArea(currentArea);
-              setTemp(currentArea);
-            }}
-            onMouseEnter={() => {
-              setCurrentArea("ghamed");
-              setClickedArea(null);
-            }}
-            onMouseLeave={() => {
-              setCurrentArea(null);
-              setClickedArea(temp);
-            }}
-            className="absolute flexify  ghamed left-60 top-120 w-[100px] h-[100px] cursor-pointer">
-            {/* {data.find((item) => item.state === "ghamed").name.arabic} */}
-          </div>
-
-          <div
-            onClick={() => {
-              setTemp(null);
-              setClickedArea(currentArea);
-              setTemp(currentArea);
-            }}
-            onMouseEnter={() => {
-              setCurrentArea("balghrshy");
-              setClickedArea(null);
-            }}
-            onMouseLeave={() => {
-              setCurrentArea(null);
-              setClickedArea(temp);
-            }}
-            className="absolute flexify  balghrshy left-80 top-90 w-[100px] h-[100px] cursor-pointer">
-            {" "}
-            {/* {data.find((item) => item.state === "balghrshy").name.arabic} */}
-          </div>
-
-          <div
-            onClick={() => {
-              setTemp(null);
-              setClickedArea(currentArea);
-              setTemp(currentArea);
-            }}
-            onMouseEnter={() => {
-              setCurrentArea("baha");
-              setClickedArea(null);
-            }}
-            onMouseLeave={() => {
-              setCurrentArea(null);
-              setClickedArea(temp);
-            }}
-            className="absolute flexify  baha left-64 top-80 w-[50px] h-[100px] cursor-pointer">
-            {/* {data.find((item) => item.state === "baha").name.arabic} */}
-          </div>
+          {areas.map(({ state, x, y, w, h }) => (
+            <div
+              key={state}
+              onClick={() => {
+                setTemp(null);
+                setClickedArea(currentArea);
+                setTemp(currentArea);
+              }}
+              onMouseEnter={() => {
+                setCurrentArea(state);
+                setClickedArea(null);
+              }}
+              onMouseLeave={() => {
+                setCurrentArea(null);
+                setClickedArea(temp);
+              }}
+              className={`absolute flexify rounded-2xl ${state} cursor-pointer`}
+              style={{
+                left: `${x}px`,
+                top: `${y}px`,
+                width: `${w}px`,
+                height: `${h}px`,
+              }}></div>
+          ))}
         </div>
       )}
     </div>

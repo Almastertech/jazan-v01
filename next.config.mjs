@@ -9,7 +9,7 @@ const nextConfig = {
       {
         protocol: "http",
         hostname: "34.166.121.10",
-        port: "3000",
+        port: "3500",
         pathname: "/api/files/**",
       },
     ],

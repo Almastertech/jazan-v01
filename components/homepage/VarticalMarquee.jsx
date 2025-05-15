@@ -8,7 +8,8 @@ const FILES_PATH = process.env.NEXT_PUBLIC_FILES_PATH;
 const VerticalMarquee = ({ speed = 30, data }) => {
   const duplicatedItems = [...data, ...data, ...data, ...data];
   function chunkIcons(data, chunkSize = 4) {
-    const logos = data.map((item) => item.logo1).filter(Boolean); // only non-empty logos
+    const activePartners = data.filter((item) => item.isactive);
+    const logos = activePartners.map((logo) => logo.logo1);
     const chunks = [];
 
     for (let i = 0; i < logos.length; i += chunkSize) {
@@ -18,7 +19,6 @@ const VerticalMarquee = ({ speed = 30, data }) => {
     return chunks;
   }
   const modified_data = chunkIcons(duplicatedItems);
-
   return (
     <div className="h-[40vh] w-full overflow-hidden relative flex flex-col items-center">
       <motion.div

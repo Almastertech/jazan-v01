@@ -1,14 +1,12 @@
-import { NextIntlClientProvider, useTranslations } from "next-intl";
-import { getMessages, getTranslations } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import "./globals.css";
-import Navbar from "@/UI/Navbar";
-import Footer from "@/UI/Footer";
 import ScrollableArea from "@/UI/ScrollableArea";
 
 export const metadata = {
-  title: "albaha",
+  title: "Jazan",
   description: "bla bla bla",
 };
 

@@ -3,7 +3,7 @@
     "nav_bar": {
       "nav_data": [
         {
-          "title": "عن جازال",
+          "title": "عن جازان",
           "subnavs": [
             { "title": "فريق العمل", "href": "#" },
             { "title": "طلب البيانات", "href": "#" },
@@ -18,39 +18,31 @@
         {
           "title": "الجغرافيا والمكان",
           "subnavs": [
-            { "title": "محافظة الباحة", "href": "/baha" },
-            { "title": "محافظة العقيق", "href": "/akik" },
-            { "title": "محافظة الحجره", "href": "/hogra" },
-            {
-              "title": "محافظة المخواة",
-
-              "href": "/makhwa"
-            },
-            { "title": "محافظة المندق", "href": "/mandak" },
-            {
-              "title": "محافظة بالجرشي",
-
-              "href": "/balghrshy"
-            },
-            {
-              "title": "محافظة بني حسن",
-
-              "href": "/banyhasan"
-            },
-            {
-              "title": "محافظة غامد الزناد",
-
-              "href": "/ghamed"
-            },
-            { "title": "محافظة القرى", "href": "/kora" },
-            { "title": "محافظة قلوة", "href": "/kalwa" }
+            { "title": "جازان", "href": "/jazan" },
+            { "title": "أبو عريش", "href": "/abo-arish" },
+            { "title": "صبيا", "href": "/sabiaa" },
+            { "title": "بيش", "href": "/bish" },
+            { "title": "صامطة", "href": "/samta" },
+            { "title": "ضمد", "href": "/damd" },
+            { "title": "العيدابي", "href": "/eidaby" },
+            { "title": "فرسان", "href": "/forsan" },
+            { "title": "فيفا", "href": "/fifa" },
+            { "title": "الدائر", "href": "/daar" },
+            { "title": "الدرب", "href": "/darb" },
+            { "title": "منطقة جازان", "href": "/amana" },
+            { "title": "أحد المسارحة", "href": "/ahad" },
+            { "title": "العارضة", "href": "/arda" },
+            { "title": "هروب", "href": "/horob" },
+            { "title": "الطوال", "href": "/tawal" },
+            { "title": "الريث", "href": "/raith" },
+            { "title": "الحرث", "href": "/harth" }
           ]
         },
         {
-          "title": "المؤشرات الحضرية لمنطقة جازال",
+          "title": "المؤشرات الحضرية لمنطقة جازان",
           "subnavs": [
             {
-              "title": "المؤشرات الحضرية لمنطقة جازال",
+              "title": "المؤشرات الحضرية لمنطقة جازان",
               "href": "http://34.166.121.10:7009/",
               "target": "_blank"
             }
@@ -84,7 +76,7 @@
     },
     "mailing_list": {
       "title": "سجل في القائمة البريدية",
-      "content": "أنشئ حساب للاطلاع على آخر أخبار جازال المشوقة والتعرّف أكثر على فعالياتنا",
+      "content": "أنشئ حساب للاطلاع على آخر أخبار جازان المشوقة والتعرّف أكثر على فعالياتنا",
       "placeholder": "إدخل بريــــدك الإلــــــكتـــرونـي للإشـــتــــراك"
     },
     "partners": {
@@ -180,40 +172,32 @@
       {
         "title": "الجغرافيا والمكان",
         "links": [
-          { "text": "منطقة الباحة", "target": "_blank", "href": "/baha" },
-          { "text": "محافظة العقيق", "target": "_blank", "href": "/akik" },
-          { "text": "محافظة الحجره", "target": "_blank", "href": "/hogra" },
-          {
-            "text": "محافظة المخواة",
-            "target": "_blank",
-            "href": "/makhwa"
-          },
-          { "text": "محافظة المندق", "target": "_blank", "href": "/mandak" },
-          {
-            "text": "محافظة بالجرشي",
-            "target": "_blank",
-            "href": "/balghrshy"
-          },
-          {
-            "text": "محافظة بني حسن",
-            "target": "_blank",
-            "href": "/banyhasan"
-          },
-          {
-            "text": "محافظة غامد الزناد",
-            "target": "_blank",
-            "href": "/ghamed"
-          },
-          { "text": "محافظة القرى", "target": "_blank", "href": "/kora" },
-          { "text": "محافظة قلوة", "target": "_blank", "href": "/kalwa" }
+          { "text": "جازان", "href": "/jazan" },
+          { "text": "أبو عريش", "href": "/abo-arish" },
+          { "text": "صبيا", "href": "/sabiaa" },
+          { "text": "بيش", "href": "/bish" },
+          { "text": "صامطة", "href": "/samta" },
+          { "text": "ضمد", "href": "/damd" },
+          { "text": "العيدابي", "href": "/eidaby" },
+          { "text": "فرسان", "href": "/forsan" },
+          { "text": "فيفا", "href": "/fifa" },
+          { "text": "الدائر", "href": "/daar" },
+          { "text": "الدرب", "href": "/darb" },
+          { "text": "منطقة جازان", "href": "/amana" },
+          { "text": "أحد المسارحة", "href": "/ahad" },
+          { "text": "العارضة", "href": "/arda" },
+          { "text": "هروب", "href": "/horob" },
+          { "text": "الطوال", "href": "/tawal" },
+          { "text": "الريث", "href": "/raith" },
+          { "text": "الحرث", "href": "/harth" }
         ]
       },
       [
         {
-          "title": "المؤشرات الحضرية لمنطقة  جازال",
+          "title": "المؤشرات الحضرية لمنطقة  جازان",
           "links": [
             {
-              "text": "المؤشرات الحضرية لمنطقة  جازال",
+              "text": "المؤشرات الحضرية لمنطقة  جازان",
               "href": "http://34.166.121.10:7009/",
               "target": "_blank"
             }
@@ -225,6 +209,6 @@
       { "title": "سياسة الخصوصية", "href": "#" },
       { "title": "سياسات ملفات تعريف الإرتباط", "href": "#" }
     ],
-    "copy": "جميع الحقوق محفوظة ©للمكتـــب الاستـــراتيجي لتطــوير منطــقة جازال"
+    "copy": "جميع الحقوق محفوظة ©للمكتـــب الاستـــراتيجي لتطــوير منطــقة جازان"
   }
 }

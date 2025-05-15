@@ -11,106 +11,142 @@ const StatsImages = ({ currentArea, clickedArea }) => {
   const images = isEnglish
     ? [
         {
-          image: "/assets/location/AreaEn/Al-Eaqiq.png",
-          name: "Al Aqiq",
-          state: "akik",
+          image: "/assets/home/stats/albaha_states/abo-arish.jpg",
+          state: "abo-arish",
         },
         {
-          image: "/assets/location/AreaEn/Al-Hujra_.png",
-          name: "Al Hujrah",
-          state: "hogra",
+          image: "/assets/home/stats/albaha_states/ahad.jpg",
+          state: "ahad",
         },
         {
-          image: "/assets/location/AreaEn/Al-Qury.png",
-          name: "Al Qura",
-          state: "kora",
+          image: "/assets/home/stats/albaha_states/amana.jpg",
+          state: "amana",
         },
         {
-          image: "/assets/location/AreaEn/Al-Makhawaa.png",
-          name: "Al Makhwah",
-          state: "makhwa",
+          image: "/assets/home/stats/albaha_states/arda.jpg",
+          state: "arda",
         },
         {
-          image: "/assets/location/AreaEn/Al- Mandaq_.png",
-          name: "Al Mandaq",
-          state: "mandak",
+          image: "/assets/home/stats/albaha_states/bish.jpg",
+          state: "bish",
         },
         {
-          image: "/assets/location/AreaEn/Beljurashi.png",
-          name: "Baljurashi",
-          state: "balghrshy",
+          image: "/assets/home/stats/albaha_states/daar.jpg",
+          state: "daar",
         },
         {
-          image: "/assets/location/AreaEn/Beni  Hassan_.png",
-          name: "Bani Hasan",
-          state: "banyhasan",
+          image: "/assets/home/stats/albaha_states/damd.jpg",
+          state: "damd",
         },
         {
-          image: "/assets/location/AreaEn/Ghamid  Al-Zanad.png",
-          name: "Ghamid Al-Zinad",
-          state: "ghamed",
+          image: "/assets/home/stats/albaha_states/darb.jpg",
+          state: "darb",
         },
         {
-          image: "/assets/location/AreaEn/Qalwa.png",
-          name: "Qilwah",
-          state: "kalwa",
+          image: "/assets/home/stats/albaha_states/eidaby.jpg",
+          state: "eidaby",
         },
         {
-          image: "/assets/location/AreaEn/Al-Baha_.png",
-          name: "Al Baha",
-          state: "baha",
+          image: "/assets/home/stats/albaha_states/fifa.jpg",
+          state: "fifa",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/forsan.jpg",
+          state: "forsan",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/harth.jpg",
+          state: "harth",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/horob.jpg",
+          state: "horob",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/raith.jpg",
+          state: "raith",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/sabiaa.jpg",
+          state: "sabiaa",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/samta.jpg",
+          state: "samta",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/tawal.jpg",
+          state: "tawal",
         },
       ]
     : [
         {
-          image: "/assets/location/Area/العقيق.png",
-          name: "العقيق",
-          state: "akik",
+          image: "/assets/home/stats/albaha_states/abo-arish.jpg",
+          state: "abo-arish",
         },
         {
-          image: "/assets/location/Area/الحجرة.png",
-          name: "محافظة الحجرة",
-          state: "hogra",
+          image: "/assets/home/stats/albaha_states/ahad.jpg",
+          state: "ahad",
         },
         {
-          image: "/assets/location/Area/القري.png",
-          name: "محافظة القرى",
-          state: "kora",
+          image: "/assets/home/stats/albaha_states/amana.jpg",
+          state: "amana",
         },
         {
-          image: "/assets/location/Area/المخواة.png",
-          name: "محافظة المخواة",
-          state: "makhwa",
+          image: "/assets/home/stats/albaha_states/arda.jpg",
+          state: "arda",
         },
         {
-          image: "/assets/location/Area/المندق.png",
-          name: "محافظة المندق",
-          state: "mandak",
+          image: "/assets/home/stats/albaha_states/bish.jpg",
+          state: "bish",
         },
         {
-          image: "/assets/location/Area/بلجراشي.png",
-          name: "محافظة بلجرشي",
-          state: "balghrshy",
+          image: "/assets/home/stats/albaha_states/daar.jpg",
+          state: "daar",
         },
         {
-          image: "/assets/location/Area/بنى  حسن.png",
-          name: "محافظة بنى حسن",
-          state: "banyhasan",
+          image: "/assets/home/stats/albaha_states/damd.jpg",
+          state: "damd",
         },
         {
-          image: "/assets/location/Area/غامد الزناد.png",
-          name: "محافظة غامد الزناد",
-          state: "ghamed",
+          image: "/assets/home/stats/albaha_states/darb.jpg",
+          state: "darb",
         },
         {
-          image: "/assets/location/Area/قلوة.png",
-          name: "محافظة قلوة",
-          state: "kalwa",
+          image: "/assets/home/stats/albaha_states/eidaby.jpg",
+          state: "eidaby",
         },
         {
-          image: "/assets/location/Area/الباحة.png",
-          name: "الباحة (مقر الإمارة)",
-          state: "baha",
+          image: "/assets/home/stats/albaha_states/fifa.jpg",
+          state: "fifa",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/forsan.jpg",
+          state: "forsan",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/harth.jpg",
+          state: "harth",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/horob.jpg",
+          state: "horob",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/raith.jpg",
+          state: "raith",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/sabiaa.jpg",
+          state: "sabiaa",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/samta.jpg",
+          state: "samta",
+        },
+        {
+          image: "/assets/home/stats/albaha_states/tawal.jpg",
+          state: "tawal",
         },
       ];
 
@@ -126,7 +162,7 @@ const StatsImages = ({ currentArea, clickedArea }) => {
           exit={{ opacity: 1, transition: { duration: 0.5 } }}
           className="absolute inset-0">
           <Image
-            src={`/assets/home/stats/albaha_states/background.png`}
+            src={`/assets/home/stats/albaha_states/background.jpg`}
             alt="background"
             fill
             priority
@@ -138,7 +174,7 @@ const StatsImages = ({ currentArea, clickedArea }) => {
 
         {images.map((state) => (
           <motion.div
-            key={state.name}
+            key={state.state}
             initial={{ opacity: 0 }}
             animate={{
               opacity:
@@ -154,7 +190,7 @@ const StatsImages = ({ currentArea, clickedArea }) => {
             className="absolute inset-0">
             <Image
               src={state.image}
-              alt={state.name}
+              alt={state.state}
               fill
               priority
               className="object-cover object-center"

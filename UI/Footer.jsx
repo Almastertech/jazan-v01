@@ -71,15 +71,28 @@ const FooterMid = () => {
   return (
     <div className="flex items-center justify-between w-full md:px-12 md:pb-4   ">
       <Image
-        src={`/assets/footer/Vector.svg`}
+        src={`/assets/navbar/Logo.png`}
         alt="Logo"
-        width={200}
-        height={100}
+        width={100}
+        height={80}
       />
       <Social />
     </div>
   );
 };
+// const FooterMid = () => {
+//   return (
+//     <div className="flex items-center justify-between w-full md:px-12 md:pb-4   ">
+//       <Image
+//         src={`/assets/footer/Vector.svg`}
+//         alt="Logo"
+//         width={200}
+//         height={100}
+//       />
+//       <Social />
+//     </div>
+//   );
+// };
 
 const FooterBottom = ({ copy, bottom }) => {
   return (

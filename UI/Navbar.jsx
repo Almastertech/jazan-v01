@@ -58,10 +58,10 @@ function Navbar({ showNav, setShowNav }) {
 const Logo = () => (
   <Link href={`/`}>
     <Image
-      src={`/assets/navbar/Logo.svg`}
+      src={`/assets/navbar/Logo.png`}
       alt="Logo"
-      height={100}
-      width={200}
+      height={60}
+      width={80}
       quality={100}
       priority
     />
