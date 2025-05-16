@@ -51,6 +51,7 @@ const StatsContentOverlay = ({
         <StatsContent
           currentAreaInfo={currentAreaInfo}
           showContent={showContent}
+          data={data}
         />
         <div data-ignore-click>
           {showContent && <Button>مشاهدة المزيد</Button>}

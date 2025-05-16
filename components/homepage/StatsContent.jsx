@@ -1,10 +1,10 @@
 "use client";
 
 const { StateInfo } = require("./StateInfo");
-import { motion, AnimatePresence } from "framer-motion";
-import { default_states_data } from "./albaha_states_data";
+import { motion } from "framer-motion";
 
-const StatsContent = ({ currentAreaInfo, showContent }) => {
+const StatsContent = ({ currentAreaInfo, showContent, data }) => {
+  const default_data = data.find((item) => (item.id = 12));
   return currentAreaInfo ? (
     <motion.div
       className="flex items-center justify-between w-full h-fit mt-20"
@@ -18,6 +18,7 @@ const StatsContent = ({ currentAreaInfo, showContent }) => {
             <StateInfo key={index} index={index} data={item} />
           ))}
       </div>
+
       <div className="w-[60%] mr-120 flex flex-col items-start gap-6 justify-start">
         {currentAreaInfo.sectorIndicators
           .slice(Math.ceil(currentAreaInfo.sectorIndicators.length / 2))
@@ -34,15 +35,16 @@ const StatsContent = ({ currentAreaInfo, showContent }) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}>
         <div className="w-full flex flex-col items-start gap-6 justify-center">
-          {default_states_data
-            .slice(0, Math.ceil(default_states_data.length / 2))
+          {default_data.sectorIndicators
+            .slice(0, Math.ceil(default_data.sectorIndicators.length / 2))
             .map((item, index) => (
-              <StateInfo index={index} key={index} data={item} />
+              <StateInfo key={index} index={index} data={item} />
             ))}
         </div>
+
         <div className="w-[60%] mr-120 flex flex-col items-start gap-6 justify-start">
-          {default_states_data
-            .slice(Math.ceil(default_states_data.length / 2))
+          {default_data.sectorIndicators
+            .slice(Math.ceil(default_data.sectorIndicators.length / 2))
             .map((item, index) => (
               <StateInfo index={index} key={index} data={item} />
             ))}
