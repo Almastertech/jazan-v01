@@ -21,7 +21,7 @@ const Overlay = ({ data }) => {
         <h1 className="text-white font-bold text-5xl">
           {data.find((item) => item.id === "Video-Title")?.content1}
         </h1>
-        <Link href={`http://34.166.121.10:7009/`} target="blank">
+        <Link href={`http://34.166.121.10:100`} target="blank">
           <Button>منصة المعلومات الحضرية</Button>
         </Link>
       </div>
